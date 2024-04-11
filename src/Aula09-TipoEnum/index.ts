@@ -4,7 +4,7 @@ enum Colors {
   YELLOW, //2
 }
 
-enum Colors { //Posso fazer merge com os enums
+enum Colors { //Posso fazer merge com os enums nomeados com mesmo nome
   PURPLE = 'PURPLE',
   ORANGE = 5,
   BLACK,
