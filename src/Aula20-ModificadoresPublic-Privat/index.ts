@@ -43,4 +43,4 @@ console.log(empresa1.nome);
 
 //Atributo ou Método Public ( Padrão ) -> um dado é acessivel dentro, fora e em todas as subclasses ( herança ) da classe
 
-// Atributo ou método private -> é apenas acessível dentro da classe em que foi declarado. Base para o encapsulamento de determinados dados de uma estrutura
+// Atributo ou método private -> é apenas acessível dentro da classe em que foi declarado, ou seja, dentro de seu escopo. Base para o encapsulamento de determinados dados de uma estrutura

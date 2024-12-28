@@ -1,6 +1,6 @@
 export class Empresa {
-  public readonly nome: string; //Atributo que pode ser acessado fora da classe, porém não pode ser modificado
-  protected readonly colaboradores: Colaborador[] = []; //Caso eu não declaro alguma das palavras chaves ( public, private ou protected ), o padrão será public
+  public readonly nome: string;
+  protected readonly colaboradores: Colaborador[] = []; //Eu posso acessar os métodos e atributos dentro da própria classe e nas sub-classes ( classes filhas )
   private readonly cnpj: string;
 
   constructor(nome: string, cnpj: string) {
